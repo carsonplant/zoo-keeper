@@ -6,7 +6,8 @@ class Alligator {
         weight = 0,
         tailLengthInch = 0,
         teethSize = '',
-        lifeStage = ''
+        lifeStage = '',
+        birthPlace = 'Right here at the Zoo'
     ) {
         this.id = 0,
             this.name = name;
@@ -16,6 +17,7 @@ class Alligator {
         this.tailLengthInch = tailLengthInch;
         this.teethSize = teethSize;
         this.lifeStage = lifeStage;
+        this.birthPlace = birthPlace;
     }
     eat(food) {
         console.log(`Chomp chomp all the ${food}ies.`)
