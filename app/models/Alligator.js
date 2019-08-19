@@ -7,7 +7,7 @@ class Alligator {
         tailLengthInch = 0,
         teethSize = '',
         lifeStage = '',
-        birthPlace = 'Right here at the Zoo'
+        birthPlace = 'Right here at the Zoo',
     ) {
         this.id = 0,
             this.name = name;
