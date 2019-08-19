@@ -7,6 +7,8 @@ import Flamingo from "./models/Flamingo.js";
 import Giraffe from "./models/Giraffe.js";
 import Hippo from "./models/Hippo.js";
 import Iguana from "./models/Iguana.js";
+import Jaguar from "./models/Jaguar.js";
+import Kangaroo from "./models/Kangaroo.js";
 
 let ally = new Alligator("Ally", "Green", "F", 200, 60, "big", "Adult", "Florida");
 let bobo = new Bear("Bobo", "Grizzly", "Brown", "M", "Standing: 8ft", 684, "Mature", "Montana");
@@ -17,7 +19,8 @@ let frankie = new Flamingo("Frankie", "Pink", "F", "4ft", 6, "Adult", "Chile");
 let giovani = new Giraffe("Giovani", "Northern Giraffe", "Sandy base with brown spots", "M", "11ft", 1020, "Youth", "Zambia");
 let hank = new Hippo("Hank", "Pinkish-Blueish-Grey", "M", "5ft", 4221, "Mature", "Uganda");
 let iggy = new Iguana("Iggy", "Blue Iguana", "Turqouise", true, true, "M", "1ft", 27, "5ft", "Adult", "Cayman Islands");
-
+let jerry = new Jaguar("Jerry", "Black", "F", true, "2ft", "175", "Adult", "Bolivia");
+let katy = new Kangaroo("Katy", "Eastern Grey", "Tan/Grey", "M", "5.5ft", 109, "Adult", "Australia")
 
 
 
