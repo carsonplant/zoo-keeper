@@ -19,6 +19,11 @@ import Rhino from "./models/Rhino.js";
 import Sloth from "./models/Sloth.js";
 import Tiger from "./models/Tiger.js";
 import Urial from "./models/Urial.js";
+import Vulture from "./models/Vulture.js";
+import Walrus from "./models/Walrus.js";
+import Xerus from "./models/Xerus.js";
+import Yak from "./models/Yak.js";
+import Zebra from "./models/Zebra.js";
 
 let ally = new Alligator("Ally", "Green", "F", 200, 60, "big", "Adult", "Florida");
 let bobo = new Bear("Bobo", "Grizzly", "Brown", "M", "Standing: 8ft", 684, "Mature", "Montana");
@@ -41,6 +46,10 @@ let reggie = new Rhino("Reggie", "Indian Rhino", 1, "Grey", "M", "6ft", 4227, "A
 let sammie = new Sloth("Sammie", "Three-toed", "Dark brown and tan", "F", "2ft", 8, "Adult", "Brazil");
 let tim = new Tiger("Tim", "Siberian", "Orange and black", "M", true, "3.5ft", 687, "Mature", "Russia");
 let unique = new Urial("Unique", "Light brown", "F", true, "3ft", 102, "Adult", "Iran");
-
+let vinny = new Vulture("Vinny", "Turkey", "Black", "M", "3.5ft", 9, "Mature", "Mexico");
+let wilma = new Walrus("Wilma", "Pacific", "Sandy", 2, "F", "4ft", 2318, "Mature", "Alaska");
+let xavier = new Xerus("Xavier", "Tan", "M", true, "1ft", 1, "Youth", "South Africa");
+let yolanda = new Yak("Yolanda", "Brown", "F", true, "5.5ft", 480, "Adult", "China");
+let ziggy = new Zebra("Ziggy", "Grevy's", "Black and white", "M", "5ft", 849, "Adult", "Kenya");
 
 
