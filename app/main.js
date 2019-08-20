@@ -14,6 +14,11 @@ import Meerkat from "./models/Meerkat.js";
 import Nyala from "./models/Nyala.js";
 import Ostrich from "./models/Ostrich.js";
 import Panda from "./models/Panda.js";
+import Quokka from "./models/Quokka.js";
+import Rhino from "./models/Rhino.js";
+import Sloth from "./models/Sloth.js";
+import Tiger from "./models/Tiger.js";
+import Urial from "./models/Urial.js";
 
 let ally = new Alligator("Ally", "Green", "F", 200, 60, "big", "Adult", "Florida");
 let bobo = new Bear("Bobo", "Grizzly", "Brown", "M", "Standing: 8ft", 684, "Mature", "Montana");
@@ -31,6 +36,11 @@ let mary = new Meerkat("Mary", "Tan/Sandy", "F", "0.75", 1, "Youth", "South Afri
 let nikko = new Nyala("Nikko", "Dark brown with subtle white stripes", "M", true, "3.5ft", 209, "Adult", "Zimbabwe");
 let oscar = new Ostrich("Oscar", "Black", "M", "9ft", 239, "Mature", "Kenya");
 let peter = new Panda("Peter", "Giant", "Black and white", "M", "Standing: 5.5ft", 199, "Adult", "China");
+let quinn = new Quokka("Quinn", "Reddish-brown", "F", true, "1ft", 5, "Youth", "Australia");
+let reggie = new Rhino("Reggie", "Indian Rhino", 1, "Grey", "M", "6ft", 4227, "Adult", "India");
+let sammie = new Sloth("Sammie", "Three-toed", "Dark brown and tan", "F", "2ft", 8, "Adult", "Brazil");
+let tim = new Tiger("Tim", "Siberian", "Orange and black", "M", true, "3.5ft", 687, "Mature", "Russia");
+let unique = new Urial("Unique", "Light brown", "F", true, "3ft", 102, "Adult", "Iran");
 
 
 
